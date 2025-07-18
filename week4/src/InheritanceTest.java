@@ -1,5 +1,5 @@
 class Employee{
-    protected String name;protected int salary;
+    private String name;private int salary;
     public Employee(String name, int salary){
         this.name = name;this.salary = salary;
     }
@@ -10,9 +10,10 @@ class Employee{
         return salary;
     }
     public int raiseSalary() { 	 		// 금여 올림
-        int raised_salary;
-        raised_salary = (int)(salary*1.3);
-        return raised_salary;
+        //int raised_salary;
+        //raised_salary = (int)(salary*1.3);
+        //return raised_salary;
+        return (int)(salary*1.3);
     }
     public String showinfo() {          //객체의 현 상태를 반환
         return "이름: " + name + "\n급여: " + salary + "\n인상된 급여: " + raiseSalary();
@@ -30,9 +31,10 @@ class Manager extends Employee{
         return bonus;
     }
     public int raiseSalary() {          // 급여 올리기
-        int raised_salary;
-        raised_salary = (int)(salary*1.2);
-        return raised_salary;
+        //int raised_salary;
+        //int raised_salary = (int)(salary*1.2);
+        //return raised_salary;
+        return (int)(getSalary()*1.2);
     }
     public String showinfo() {          // 객체의 현 상태를 반환
         return super.showinfo() + "\n보너스: " + bonus;
@@ -50,9 +52,10 @@ class Executive extends Manager{
         return stockOption;
     }
     public int raiseSalary() {          // 급여 올리기
-        int raised_salary;
-        raised_salary = (int)(salary*1.1);
-        return raised_salary;
+        //int raised_salary;
+        //int raised_salary = (int)(salary*1.1);
+        //return raised_salary;
+        return (int)(getSalary()*1.1);
     }
     public String showinfo() {          //  객체의 현상태 반환
         return super.showinfo() + "\n스톡옵션: " + stockOption;

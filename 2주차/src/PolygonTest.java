@@ -12,7 +12,6 @@ class Polygon{
     // 메소드(사용자에게 선택 요청)
     public void showInfo(){
         System.out.print("menu select 1)삼각형 2)직사각형 3)정사각형:");
-
     }
     // 메소드(면적 계산)
     public void getArea(int menu){

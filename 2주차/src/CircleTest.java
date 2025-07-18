@@ -1,8 +1,8 @@
 class Circle{
     String name;int radius;
     // 생성자
-    public Circle(String name, int radius){
-        this.name = name;this.radius = radius;
+    public Circle(String name, int r){
+        this.name = name;radius = r;
     }
     // 메소드
     public double getArea(){
