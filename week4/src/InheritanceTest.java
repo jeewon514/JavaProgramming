@@ -86,7 +86,6 @@ public class InheritanceTest {
         System.out.println("===Executive(임원)==");
         System.out.println(exc.showinfo());
         System.out.println();
-
     }
 
 }
