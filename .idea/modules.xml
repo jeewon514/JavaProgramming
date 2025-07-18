@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2주차/0701.iml" filepath="$PROJECT_DIR$/2주차/0701.iml" />
       <module fileurl="file://$PROJECT_DIR$/3주차/0702.iml" filepath="$PROJECT_DIR$/3주차/0702.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4주차/4주차.iml" filepath="$PROJECT_DIR$/4주차/4주차.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaGUI/JavaGUI.iml" filepath="$PROJECT_DIR$/JavaGUI/JavaGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaprogamming.iml" filepath="$PROJECT_DIR$/.idea/javaprogamming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/week4/week4.iml" filepath="$PROJECT_DIR$/week4/week4.iml" />
     </modules>
   </component>
 </project>
